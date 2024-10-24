@@ -5,6 +5,7 @@ export default function App(){
     return(
         <>
             <StarRating maxRating={5} messages={["Terrible","Bad","Okay","Good","Amazing"]} defaultRating={3} />
+            <hr/>
             {/*<StarRating size={24} color="red" className="test" />*/}
             <Test />
         </>
